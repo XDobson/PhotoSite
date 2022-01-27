@@ -1,16 +1,24 @@
-h1, h3 {
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Supermercado+One&display=swap');
+
+h1 {
+    font-size: 2vw;
     text-align: center;
+    font-family: 'Comforter', cursive;
+}
+h3 {
+    color: gray;
+    font-size: 1vw;
+    text-align: center;
+    font-family: 'Supermercado One', cursive;
+    border-bottom: gray solid 7px;
+    width: 47.5%;
+    margin: auto;
 }
 img {
-    padding: 10px;
-    margin: 0;
-    border: 0;
-    width: 31.9%
-}
-#left {
-    border: solid 3px black
+    margin: 1.25%;
+    width: 22.5%;
+    float: left;
 }
 body {
-    background-color: lightyellow;
-
+    background-color: #ccc;
 }
